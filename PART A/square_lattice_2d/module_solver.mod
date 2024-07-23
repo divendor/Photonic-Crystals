@@ -1,0 +1,318 @@
+G95 module created on Mon Nov 14 16:44:35 2022 from module_solver.f95
+If you edit this, you'll get what you deserve.
+module-version 9
+(() () () () () () ()
+() () () () () () () () () () () () () ())
+
+()
+
+(('eigsrt' 2 3) ('eival' 4 5) ('tqli' 6 7) ('tred2' 8 9))
+
+()
+
+()
+
+(2 'eigsrt_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (10 NONE 11 NONE) ()
+() '' () ())
+3 'eigsrt_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (12 NONE 13 NONE) ()
+() '' () ())
+5 'eival_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (14 NONE 15 NONE 16
+NONE) () () '' () ())
+6 'tqli_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (17 NONE 18 NONE 19
+NONE) () () '' () ())
+8 'tred2_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (20 NONE 21 NONE 22
+NONE) () () '' () ())
+7 'tqli_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (23 NONE 24 NONE 25
+NONE) () () '' () ())
+9 'tred2_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (26 NONE 27 NONE 28
+NONE) () () '' () ())
+4 'eival_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (29 NONE 30 NONE 31
+NONE) () () '' () ())
+32 'atan' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC UNKNOWN NONE
+NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+33 'byte' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '1') () () '' () ())
+34 'c0' 'module_utilities' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (REAL 4) 0 0 () (CONSTANT (REAL 4) 0 '9368517' 0 155) () () '' ()
+())
+35 'doble' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '8') () () '' () ())
+36 'double' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '8') () () '' () ())
+37 'dp' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '8') () () '' () ())
+38 'eigsrt' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(UNKNOWN) 0 0 () () () '' () ())
+39 'eival' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+40 'file_to_integer_matrix' 'module_utilities' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (41 NONE 42
+NONE 43 NONE) () () '' () ())
+44 'fourier_coef' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (45 NONE 46 NONE 47
+NONE 48 NONE 49 NONE 50 NONE 51 NONE) () () '' () ())
+52 'fp' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '10') () () '' () ())
+53 'full' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '10') () () '' () ())
+54 'get_eigenvalues' 'module_solver' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (55 NONE 56 NONE 57 NONE) ()
+() '' () ())
+58 'get_kvalues' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (59 NONE 60 NONE 61 NONE 62
+NONE 63 NONE) () () '' () ())
+64 'hbar' 'module_utilities' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (REAL 4) 0 0 () (CONSTANT (REAL 4) 0 '9186605' 0 14) () () '' () ())
+65 'int10' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '8') () () '' () ())
+66 'int2' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '1') () () '' () ())
+67 'int4' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '2') () () '' () ())
+68 'int8' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '4') () () '' () ())
+69 'kunitaryvector' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (70 NONE 71 NONE) ()
+() '' () ())
+72 'kvector' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL
+NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (73 NONE 74 NONE 75 NONE) () () ''
+() ())
+76 'linspace' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL
+NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (77 NONE 78 NONE 79 NONE
+80 NONE 81 NONE) () () '' () ())
+82 'long' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '8') () () '' () ())
+83 'm_diagonalizacion_dp' 'm_diagonalizacion_dp' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+84 'm_diagonalizacion_sp' 'm_diagonalizacion_sp' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+85 'make_matrixes' 'module_solver' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (86 NONE 87 NONE 88 NONE 89
+NONE 90 NONE 91 NONE 92 NONE 93 NONE 94 NONE 95 NONE) () () '' () ())
+96 'make_ordered_gpoints' 'module_utilities' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (97 NONE 98
+NONE 99 NONE) () () '' () ())
+100 'mcf_diagonalizacion' 'mcf_diagonalizacion' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+101 'mcf_tipos' 'mcf_tipos' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(UNKNOWN) 0 0 () () () '' () ())
+102 'module_solver' 'module_solver' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN
+NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+103 'module_utilities' 'module_utilities' 1 ((MODULE UNKNOWN UNKNOWN
+UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+104 'pi' 'module_utilities' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (REAL 4) 0 0 () (CONSTANT (REAL 4) 0 '13176795' 0 128) () () '' ()
+())
+105 'print_integer_matrix' 'module_utilities' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (106 NONE) () ()
+'' () ())
+107 'print_real_matrix' 'module_utilities' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (108 NONE) () ()
+'' () ())
+109 'q_e' 'module_utilities' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (REAL 4) 0 0 () (CONSTANT (REAL 4) 0 '12396222' 0 64) () () '' ()
+())
+110 'selected_int_kind' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC
+UNKNOWN NONE NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+111 'selected_real_kind' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC
+UNKNOWN NONE NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+112 'sencillo' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE
+NONE) (INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '4') () () '' () ())
+113 'short' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '2') () () '' () ())
+114 'single' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '4') () () '' () ())
+115 'sp' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '4') () () '' () ())
+116 'total' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '10') () () '' () ())
+117 'tqli' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+118 'tred2' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(UNKNOWN) 0 0 () () () '' () ())
+119 'vectormodule' 'module_utilities' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (120 NONE 121 NONE)
+() () '' () ())
+122 'word' 'mcf_tipos' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(INTEGER 8) 0 0 () (CONSTANT (INTEGER 8) 0 '4') () () '' () ())
+121 'vector_module' '' 123 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE
+DUMMY) (REAL 4) 0 0 () () () '' () ())
+120 'vector' '' 123 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+108 'matrix' '' 124 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+106 'matrix' '' 125 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (INTEGER 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+99 'valid_points' '' 126 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DUMMY)
+(INTEGER 8) 0 0 () () () '' () ())
+98 'file_name' '' 126 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+CHARACTER 1 (())) 0 0 () () () '' () ())
+97 'm_max' '' 126 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 8) 0 0 () () () '' () ())
+95 'b' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+94 'a' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+93 'gam_2' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+92 'gam_1' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+91 'b2' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+90 'b1' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+89 'te' '' 127 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+88 'tm' '' 127 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+87 'k' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+86 'g_points_matrix' '' 127 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE
+DIMENSION DUMMY) (INTEGER 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () ''
+() ())
+81 'step' '' 128 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+80 'space' '' 128 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+79 'npoints' '' 128 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 8) 0 0 () () () '' () ())
+78 'final_point' '' 128 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+REAL 4) 0 0 () () () '' () ())
+77 'first_point' '' 128 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+REAL 4) 0 0 () () () '' () ())
+75 'vector' '' 129 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+74 'coord_y' '' 129 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+REAL 4) 0 0 () () () '' () ())
+73 'coord_x' '' 129 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+REAL 4) 0 0 () () () '' () ())
+71 'unitary' '' 130 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+70 'vector' '' 130 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+63 'k_values' '' 131 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+62 'step' '' 131 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+61 'npoints' '' 131 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 8) 0 0 () () () '' () ())
+60 'g_end' '' 131 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+59 'g_start' '' 131 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+57 'complex_eigenvalues' '' 132 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE
+DIMENSION DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+56 'real_eigenvalues' '' 132 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE
+DIMENSION DUMMY) (REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+55 'matrix' '' 132 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+51 'coef' '' 133 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+50 'b' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+49 'a' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+48 'gam_2' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+47 'gam_1' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4)
+0 0 () () () '' () ())
+46 'n' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (INTEGER 8)
+0 0 () () () '' () ())
+45 'm' '' 133 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (INTEGER 8)
+0 0 () () () '' () ())
+43 'matrix' '' 134 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+DUMMY) (INTEGER 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+42 'nlines' '' 134 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 8) 0 0 () () () '' () ())
+41 'file_name' '' 134 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+CHARACTER 1 (())) 0 0 () () () '' () ())
+31 'wi' '' 135 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+30 'wr' '' 135 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+29 'a' '' 135 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+28 'e' '' 136 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+27 'd' '' 136 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+26 'a' '' 136 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+25 'z' '' 137 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+24 'e' '' 137 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+23 'd' '' 137 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+22 'e' '' 138 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+21 'd' '' 138 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+20 'a' '' 138 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+19 'z' '' 139 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+18 'e' '' 139 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+17 'd' '' 139 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+16 'wi' '' 140 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+15 'wr' '' 140 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+14 'a' '' 140 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+13 'v' '' 141 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+12 'd' '' 141 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+11 'v' '' 142 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+10 'd' '' 142 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+9 'tred2_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (26 NONE 27 NONE 28
+NONE) () () '' () ())
+8 'tred2_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (20 NONE 21 NONE 22
+NONE) () () '' () ())
+7 'tqli_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (23 NONE 24 NONE 25
+NONE) () () '' () ())
+6 'tqli_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (17 NONE 18 NONE 19
+NONE) () () '' () ())
+5 'eival_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (14 NONE 15 NONE 16
+NONE) () () '' () ())
+4 'eival_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (29 NONE 30 NONE 31
+NONE) () () '' () ())
+3 'eigsrt_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (12 NONE 13 NONE) ()
+() '' () ())
+2 'eigsrt_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (10 NONE 11 NONE) ()
+() '' () ())
+)
+
+('atan' 0 32 'byte' 0 33 'c0' 0 34 'doble' 0 35 'double' 0 36 'dp' 0 37
+'eigsrt' 0 38 'eival' 0 39 'file_to_integer_matrix' 0 40 'fourier_coef'
+0 44 'fp' 0 52 'full' 0 53 'get_eigenvalues' 0 54 'get_kvalues' 0 58
+'hbar' 0 64 'int10' 0 65 'int2' 0 66 'int4' 0 67 'int8' 0 68
+'kunitaryvector' 0 69 'kvector' 0 72 'linspace' 0 76 'long' 0 82
+'m_diagonalizacion_dp' 0 83 'm_diagonalizacion_sp' 0 84 'make_matrixes'
+0 85 'make_ordered_gpoints' 0 96 'mcf_diagonalizacion' 0 100 'mcf_tipos'
+0 101 'module_solver' 0 102 'module_utilities' 0 103 'pi' 0 104
+'print_integer_matrix' 0 105 'print_real_matrix' 0 107 'q_e' 0 109
+'selected_int_kind' 0 110 'selected_real_kind' 0 111 'sencillo' 0 112
+'short' 0 113 'single' 0 114 'sp' 0 115 'total' 0 116 'tqli' 0 117 'tred2'
+0 118 'vectormodule' 0 119 'word' 0 122)

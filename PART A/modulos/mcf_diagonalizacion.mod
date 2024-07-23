@@ -1,0 +1,125 @@
+G95 module created on Fri Nov 11 16:35:05 2022 from ../modulos/mcf_matrices.f95
+If you edit this, you'll get what you deserve.
+module-version 9
+
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+(('eigsrt' 2 3) ('eival' 4 5) ('tqli' 6 7) ('tred2' 8 9))
+
+()
+
+()
+
+(4 'eival_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (10 NONE 11 NONE 12
+NONE) () () '' () ())
+8 'tred2_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (13 NONE 14 NONE 15
+NONE) () () '' () ())
+6 'tqli_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (16 NONE 17 NONE 18
+NONE) () () '' () ())
+2 'eigsrt_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (19 NONE 20 NONE) ()
+() '' () ())
+3 'eigsrt_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (21 NONE 22 NONE) ()
+() '' () ())
+5 'eival_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (23 NONE 24 NONE 25
+NONE) () () '' () ())
+9 'tred2_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (26 NONE 27 NONE 28
+NONE) () () '' () ())
+7 'tqli_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (29 NONE 30 NONE 31
+NONE) () () '' () ())
+32 'eigsrt' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE)
+(UNKNOWN) 0 0 () () () '' () ())
+33 'eival' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+34 'm_diagonalizacion_dp' 'm_diagonalizacion_dp' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+35 'm_diagonalizacion_sp' 'm_diagonalizacion_sp' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+36 'mcf_diagonalizacion' 'mcf_diagonalizacion' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+37 'tqli' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+38 'tred2' '(global)' 1 ((PROCEDURE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+31 'z' '' 39 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+30 'e' '' 39 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+29 'd' '' 39 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+28 'e' '' 40 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+27 'd' '' 40 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+26 'a' '' 40 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+25 'wi' '' 41 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+24 'wr' '' 41 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+23 'a' '' 41 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+22 'v' '' 42 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+21 'd' '' 42 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+20 'v' '' 43 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+19 'd' '' 43 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+18 'z' '' 44 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION
+OPTIONAL DUMMY) (REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+17 'e' '' 44 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+16 'd' '' 44 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+15 'e' '' 45 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+14 'd' '' 45 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+13 'a' '' 45 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+12 'wi' '' 46 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+11 'wr' '' 46 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+10 'a' '' 46 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+9 'tred2_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (26 NONE 27 NONE 28
+NONE) () () '' () ())
+8 'tred2_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (13 NONE 14 NONE 15
+NONE) () () '' () ())
+7 'tqli_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (29 NONE 30 NONE 31
+NONE) () () '' () ())
+6 'tqli_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (16 NONE 17 NONE 18
+NONE) () () '' () ())
+5 'eival_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (23 NONE 24 NONE 25
+NONE) () () '' () ())
+4 'eival_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (10 NONE 11 NONE 12
+NONE) () () '' () ())
+3 'eigsrt_dp' 'm_diagonalizacion_dp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (21 NONE 22 NONE) ()
+() '' () ())
+2 'eigsrt_sp' 'm_diagonalizacion_sp' 1 ((PROCEDURE UNKNOWN MODULE-PROC
+DECL NONE NONE SUBROUTINE INVOKED) (PROCEDURE 0) 0 0 (19 NONE 20 NONE) ()
+() '' () ())
+)
+
+('eigsrt' 0 32 'eival' 0 33 'm_diagonalizacion_dp' 0 34
+'m_diagonalizacion_sp' 0 35 'mcf_diagonalizacion' 0 36 'tqli' 0 37 'tred2'
+0 38)
